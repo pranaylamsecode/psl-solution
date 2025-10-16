@@ -36,7 +36,7 @@ const partners = [
   { name: "Meta", logo: "/meta-logo.png" },
   { name: "AWS", logo: "/aws-logo.png" },
   { name: "Vercel", logo: "/vercel-logo.png" },
-  { name: "DigitalOcean", logo: "/digitalocean-logo.png" },
+  { name: "DigitalOcean", logo: "/digitalocean-logo.jpg" },
 ];
 
 const Home = () => {
@@ -207,7 +207,7 @@ const styles = {
   partnerLogo: {
     height: "40px",
     objectFit: "contain",
-    filter: "brightness(0) invert(1)",
+    /* filter: "brightness(0) invert(1)", */
   },
 };
 
